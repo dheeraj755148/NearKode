@@ -16,6 +16,6 @@
 Backend runs on port 5000 and Frontend runs on port 3000
 
 Pages:
-*Login with validation, Registration with validation, Forgot password with OTP generation, Home page*
+*Login with validation, Registration with validation, Forgot password with OTP generation, OTP from database is deleted as Password gets updated, Home page*
 
 Passwords, OTPs are hashed and stored in database

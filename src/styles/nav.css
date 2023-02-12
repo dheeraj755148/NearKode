@@ -1,3 +1,79 @@
+nav .navbar-brand a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+nav .navbar-toggler,
+nav .navbar-collapse,
+nav .collapse,
+nav .show {
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  outline: none;
+}
+nav .navbar-toggler:hover,
+nav .navbar-collapse:hover,
+nav .collapse:hover,
+nav .show:hover {
+  background-color: none !important;
+}
+nav .navbar-toggler .navbar-nav a,
+nav .navbar-toggler .navbar-nav-scroll a,
+nav .navbar-collapse .navbar-nav a,
+nav .navbar-collapse .navbar-nav-scroll a,
+nav .collapse .navbar-nav a,
+nav .collapse .navbar-nav-scroll a,
+nav .show .navbar-nav a,
+nav .show .navbar-nav-scroll a {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+  margin-left: 10px;
+}
+nav #navbarScroll {
+  justify-content: end;
+}
+nav #navbarScroll a {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  nav .navbar-toggler,
+  nav .navbar-collapse,
+  nav .collapse,
+  nav .show {
+    border: none;
+    width: -moz-fit-content;
+    width: fit-content;
+    outline: none;
+  }
+  nav .navbar-toggler:hover,
+  nav .navbar-collapse:hover,
+  nav .collapse:hover,
+  nav .show:hover {
+    background-color: none !important;
+  }
+  nav .navbar-toggler .navbar-nav a,
+  nav .navbar-toggler .navbar-nav-scroll a,
+  nav .navbar-collapse .navbar-nav a,
+  nav .navbar-collapse .navbar-nav-scroll a,
+  nav .collapse .navbar-nav a,
+  nav .collapse .navbar-nav-scroll a,
+  nav .show .navbar-nav a,
+  nav .show .navbar-nav-scroll a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  nav #navbarScroll {
+    justify-content: center;
+  }
+  nav #navbarScroll a {
+    margin-left: 0;
+  }
+}
 .nav-parent {
   display: flex;
   justify-content: space-between;
@@ -48,5 +124,5 @@
 }
 
 .active {
-  color: black !important;
+  color: white !important;
 }/*# sourceMappingURL=nav.css.map */

@@ -30,4 +30,16 @@
   color: red;
   font-size: 13px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 358px) {
+  form .form-items .error-change input {
+    width: 250px;
+  }
+  form .forgot {
+    width: 250px !important;
+  }
+  form button {
+    width: 250px;
+  }
 }/*# sourceMappingURL=formMain.css.map */

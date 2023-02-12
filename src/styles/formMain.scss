@@ -6,29 +6,47 @@
     font-weight: bold;
     color: gray;
   }
-  .error-change{
+  .error-change {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction:column;
-      input {
-        margin-top: 3px;
-        //border: none;
-        width: 300px;
-        height: 35px;
-        font-size: 12px;
-        padding-left: 5px;
-      }
-      span{
-        color:red;
-        font-size: 10px;
-        font-weight: bold;
-      }
+    flex-direction: column;
+    input {
+      margin-top: 3px;
+      //border: none;
+      width: 300px;
+      height: 35px;
+      font-size: 12px;
+      padding-left: 5px;
+    }
+    span {
+      color: red;
+      font-size: 10px;
+      font-weight: bold;
+    }
   }
-  .passwordError{
+  .passwordError {
     margin-top: 5px;
     color: red;
     font-size: 13px;
     font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  form {
+    .form-items {
+      .error-change {
+        input {
+          width: 250px;
+        }
+      }
+    }
+    .forgot {
+      width: 250px !important;
+    }
+    button {
+      width: 250px;
+    }
   }
 }

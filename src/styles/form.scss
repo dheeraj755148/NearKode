@@ -1,0 +1,29 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh !important;
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .forgot {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 300px;
+      margin-bottom: 5px;
+      a {
+        color: gray;
+        font-size: 12px;
+        text-decoration: none;
+        transition: all ease-in-out 0.25s;
+        &:hover {
+          color: rgb(225, 47, 47);
+        }
+      }
+    }
+  }
+}

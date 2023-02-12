@@ -1,6 +1,6 @@
 # MERN stack project
 
-- MongoDB to create, update USER and store, delete OTP
+- MongoDB Atlas to create, update USER and store, delete OTP
 - API created using Express
 - React as frontend
 - Node as server side 
